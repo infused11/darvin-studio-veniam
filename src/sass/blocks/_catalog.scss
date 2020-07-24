@@ -54,7 +54,6 @@
             border-radius: 5px;
             border: solid 2px #b0bdc4;
             background-color: #ffffff;
-
             &:before{
                 content: '';
                 box-sizing: border-box;
@@ -98,6 +97,13 @@
                 display: block;
                 border-top: 1px solid rgba(0,0,0, 0.15);
             }
+        }
+    }
+    .catalog-slider{
+        display: flex;
+        justify-content: space-between;
+        &__item{
+            padding: 0 0;
         }
     }
 }
